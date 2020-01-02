@@ -1,0 +1,9 @@
+services:
+  ./:
+    maintainers:
+      - email: ""
+        name: edaena
+  ./services/discovery-service:
+    maintainers:
+      - email: maintainer email
+        name: maintainer name

@@ -1,0 +1,12 @@
+rings:
+  master:
+    isDefault: true
+services:
+  ./services/discovery-service:
+    helm:
+      chart:
+        branch: ""
+        git: ""
+        path: ""
+variableGroups:
+  - fabrikam-vg
